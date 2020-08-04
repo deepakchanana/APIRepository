@@ -7,9 +7,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class My {
 	
-	public static void main(String[] args) 
+i	public static void main(String[] args) 
 	{
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\Dell\\Desktop\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver","C:\\Users\\Dell\\Desktoromedriver.exe");
 	ChromeDriver driver=new ChromeDriver();  // Chromedriver object
 	driver.get("https://www.facebook.com"); // url hit
 	driver.manage().window().maximize(); // maximize the browser
